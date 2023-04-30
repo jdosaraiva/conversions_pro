@@ -68,9 +68,9 @@ class IMCCalculatorPageState extends State<IMCCalculatorPage> {
           ),
           Slider(
             value: _peso,
-            min: 50,
+            min: 25,
             max: 300,
-            divisions: 250,
+            divisions: 275,
             onChanged: (double value) {
               setState(() {
                 _peso = value;
